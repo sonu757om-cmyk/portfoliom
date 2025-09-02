@@ -6,8 +6,8 @@ import TypingEffect from './typing-effect';
 
 export default function Hero() {
   return (
-    <section id="home" className="w-full py-20 md:py-32 lg:py-40 bg-card border-b-4 border-primary">
-      <div className="container mx-auto px-4 md:px-6">
+    <section id="home" className="relative w-full overflow-hidden py-20 md:py-32 lg:py-40 bg-card border-b-4 border-primary">
+      <div className="container mx-auto px-4 md:px-6 z-10 relative">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:gap-16 items-center">
           <div className="space-y-4">
             <TypingEffect
@@ -42,6 +42,14 @@ export default function Hero() {
           />
         </div>
       </div>
+      <Image
+        src="https://images.unsplash.com/photo-1529636798458-72410db268b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmbG93ZXIlMjBib3VxdWV0fGVufDB8fHx8MTc1NjkxNjU4MHww&ixlib=rb-4.1.0&q=80&w=1080"
+        alt="Flower bouquet"
+        width={1920}
+        height={400}
+        data-ai-hint="flower bouquet"
+        className="absolute bottom-0 left-0 w-full h-auto object-cover opacity-20"
+      />
     </section>
   );
 }
