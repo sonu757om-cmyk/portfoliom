@@ -25,7 +25,7 @@ export default function About() {
               height={600}
               alt="About Me"
               data-ai-hint="professional headshot"
-              className="mx-auto aspect-square overflow-hidden rounded-full object-cover"
+              className="mx-auto aspect-square overflow-hidden rounded-full object-cover border-4 border-primary"
             />
           </div>
           <div className="space-y-6">
