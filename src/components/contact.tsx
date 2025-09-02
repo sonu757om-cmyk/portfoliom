@@ -11,6 +11,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Send, Loader2 } from 'lucide-react';
 import { useState } from 'react';
 import { submitContactForm } from '@/app/actions';
+import Image from 'next/image';
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -62,7 +63,13 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative overflow-hidden w-full py-20 md:py-32 bg-card">
-      <div className="container mx-auto px-4 md:px-6">
+       <Image
+        src="https://i.ibb.co/6g1x4m2/radha-krishna.png"
+        alt="Decorative background image"
+        fill
+        className="object-contain object-left-bottom opacity-20 pointer-events-none"
+      />
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Get In Touch</h2>
