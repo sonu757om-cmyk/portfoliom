@@ -10,7 +10,7 @@ const projects = [
   {
     title: 'Project One',
     description: 'A web application for managing tasks and boosting productivity. Built with Next.js, TypeScript, and Tailwind CSS.',
-    image: 'https://picsum.photos/600/400',
+    image: 'https://images.unsplash.com/photo-1513185041617-8ab03f83d6c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNnx8Ym9va3xlbnwwfHx8fDE3NTY4MTI5MzV8MA&ixlib=rb-4.1.0&q=80&w=1080',
     tags: ['Next.js', 'TypeScript', 'AI'],
     liveUrl: '#',
     repoUrl: '#',
