@@ -68,7 +68,7 @@ export default function Contact() {
         alt="Decorative background image"
         data-ai-hint="underwater"
         fill
-        className="object-cover object-center opacity-10 pointer-events-none"
+        className="object-cover object-center opacity-5 pointer-events-none"
       />
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
