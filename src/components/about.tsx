@@ -36,7 +36,7 @@ export default function About() {
               </p>
             </div>
             <div className="space-y-3">
-              <h3 className="text-2xl font-bold font-headline">My Skills</h3>
+              <h3 className="text-2xl font-bold font-headline text-primary">My Skills</h3>
               <div className="flex flex-wrap gap-2">
                 {skills.map(skill => (
                   <div key={skill} className="rounded-full bg-secondary px-4 py-2 text-sm font-medium text-secondary-foreground">
