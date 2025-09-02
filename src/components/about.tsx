@@ -3,8 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Download } from 'lucide-react';
 
 const skills = [
-  'JavaScript (ES6+)', 'TypeScript', 'React', 'Next.js', 'Node.js',
-  'Firebase', 'GenAI', 'Tailwind CSS', 'UI/UX Design', 'Figma'
+  'Video Editor', 'Photo Editor', 'B.A', 'M.A', 'B.Ed'
 ];
 
 export default function About() {
