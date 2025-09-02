@@ -12,7 +12,7 @@ export default function Hero() {
           <div className="space-y-4">
             <TypingEffect
               texts={["Hi, I'm Manoj", "I'm a Developer", "I'm a Designer"]}
-              className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline text-destructive"
+              className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline text-primary"
             />
             <p className="max-w-[600px] text-muted-foreground md:text-xl">
               I build beautiful, responsive, and user-friendly web applications. Explore my work and get in touch.
