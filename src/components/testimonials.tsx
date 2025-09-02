@@ -13,7 +13,7 @@ const testimonials = [
     name: 'Jane Doe',
     title: 'CEO, Tech Corp',
     quote: 'Working with this developer was a fantastic experience. Their attention to detail and commitment to quality is unparalleled. I highly recommend them for any web development project.',
-    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb258ZW58MHx8fHwxNzU2ODE0Mjk4fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    avatar: 'https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8cGVyc29ufGVufDB8fHx8MTc1NjgxNDI5OHww&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'woman smiling',
   },
   {
