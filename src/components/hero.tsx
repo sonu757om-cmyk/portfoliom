@@ -11,8 +11,8 @@ export default function Hero() {
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:gap-16 items-center">
           <div className="space-y-4">
             <TypingEffect
-              texts={["Hi, I'm a Developer", "Hi, I'm a Designer"]}
-              className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline text-primary"
+              texts={["Hi, I'm Manoj", "I'm a Developer", "I'm a Designer"]}
+              className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline text-destructive"
             />
             <p className="max-w-[600px] text-muted-foreground md:text-xl">
               I build beautiful, responsive, and user-friendly web applications. Explore my work and get in touch.
