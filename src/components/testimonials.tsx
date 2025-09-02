@@ -57,7 +57,7 @@ export default function Testimonials() {
             {testimonials.map((testimonial, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-4">
-                  <Card className="h-full flex flex-col">
+                  <Card className="h-full flex flex-col border-2 border-primary shadow-lg hover:shadow-primary/50 transition-shadow">
                     <CardContent className="p-6 flex flex-col items-center text-center flex-grow">
                       <Image
                         src={testimonial.avatar}
