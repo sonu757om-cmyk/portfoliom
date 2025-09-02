@@ -20,7 +20,7 @@ export default function About() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div>
             <Image
-              src="https://picsum.photos/600/600"
+              src="https://images.unsplash.com/photo-1619535522754-f9d1d6877b41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxibGFjayUyMGFuZCUyMHdoaXRlJTIwbWFsZSUyMGltYWdlfGVufDB8fHx8MTc1NjgxMzE4NXww&ixlib=rb-4.1.0&q=80&w=1080"
               width={600}
               height={600}
               alt="About Me"
