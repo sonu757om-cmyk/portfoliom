@@ -50,11 +50,11 @@ export default function Hero() {
         </div>
       </div>
       <Image
-        src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zmxvd2Vyc3xlbnwwfHx8fDE3NTY4MTg4NTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
-        alt="Flower bouquet"
+        src="https://images.unsplash.com/photo-1502726299822-6f583f972e02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNnx8dW5kZXIlMjB3YXRlciUyMHxlbnwwfHx8fDE3NTY4MTg5NTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        alt="Underwater scene"
         width={1920}
         height={400}
-        data-ai-hint="flower bouquet"
+        data-ai-hint="underwater scene"
         className="absolute bottom-0 left-0 w-full h-auto object-cover opacity-20"
       />
     </section>
