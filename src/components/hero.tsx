@@ -33,11 +33,11 @@ export default function Hero() {
             </div>
           </div>
           <Image
-            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOXx8cGVyc29uJTIwfGVufDB8fHx8MTc1NjgxODYwNXww&ixlib=rb-4.1.0&q=80&w=1080"
+            src="https://i.ibb.co/6yvGMZ4/image.png"
             width={600}
             height={600}
             alt="Hero"
-            data-ai-hint="professional headshot"
+            data-ai-hint="deity portrait"
             className="mx-auto aspect-square overflow-hidden rounded-full object-cover border-4 border-primary"
           />
         </div>
