@@ -64,9 +64,9 @@ export default function Contact() {
   return (
     <section id="contact" className="relative overflow-hidden w-full py-20 md:py-32 bg-card">
        <Image
-        src="https://images.unsplash.com/photo-1596524430615-b46475ddff6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb250YWN0fGVufDB8fHx8MTc1NjkxODMyOXww&ixlib=rb-4.1.0&q=80&w=1080"
+        src="https://images.unsplash.com/photo-1559825477-6f38d6332bb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx1bmRlciUyMHdhdGVyfGVufDB8fHx8MTc1NjgxOTM4NHww&ixlib=rb-4.1.0&q=80&w=1080"
         alt="Decorative background image"
-        data-ai-hint="contact us"
+        data-ai-hint="underwater"
         fill
         className="object-cover object-center opacity-10 pointer-events-none"
       />
