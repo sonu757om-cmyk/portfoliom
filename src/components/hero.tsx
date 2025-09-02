@@ -38,7 +38,7 @@ export default function Hero() {
             height={600}
             alt="Hero"
             data-ai-hint="abstract developer"
-            className="mx-auto aspect-square overflow-hidden rounded-full object-cover"
+            className="mx-auto aspect-square overflow-hidden rounded-full object-cover border-4 border-primary"
           />
         </div>
       </div>
