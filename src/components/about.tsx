@@ -3,7 +3,14 @@ import { Button } from '@/components/ui/button';
 import { Download } from 'lucide-react';
 
 const skills = [
-  'Video Editor', 'Photo Editor', 'B.A', 'M.A', 'B.Ed'
+  'Video Editor',
+  'Photo Editor',
+  'B.A',
+  'M.A',
+  'B.Ed',
+  'Drawing',
+  'Developer',
+  'Photography',
 ];
 
 export default function About() {
