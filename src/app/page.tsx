@@ -2,6 +2,7 @@ import Header from '@/components/header';
 import Hero from '@/components/hero';
 import Projects from '@/components/projects';
 import About from '@/components/about';
+import Hobbies from '@/components/hobbies';
 import SkillsVisualizer from '@/components/skills-visualizer';
 import Testimonials from '@/components/testimonials';
 import Blog from '@/components/blog';
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <Projects />
         <About />
+        <Hobbies />
         <SkillsVisualizer />
         <Testimonials />
         <Blog />
