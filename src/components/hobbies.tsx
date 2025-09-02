@@ -1,6 +1,7 @@
 import { Music, BookOpen, Paintbrush, Palette } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Image from 'next/image';
+import TypingEffect from './typing-effect';
 
 const hobbies = [
   {
@@ -39,7 +40,11 @@ export default function Hobbies() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">My Hobbies</h2>
+            <TypingEffect
+              texts={["My Hobbies"]}
+              className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary"
+              loop={false}
+            />
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               When I'm not coding or designing, these are the activities that I enjoy.
             </p>
