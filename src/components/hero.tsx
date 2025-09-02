@@ -34,11 +34,11 @@ export default function Hero() {
           </div>
           <Image
             src="https://images.unsplash.com/photo-1587837073080-448bc6a2329b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibGFjayUyMGFuZCUyMHdoaXRlJTIwaW1hZ2UlMjB8ZW58MHx8fHwxNzU2ODExMjQ5fDA&ixlib=rb-4.1.0&q=80&w=1080"
-            width={800}
-            height={800}
+            width={600}
+            height={600}
             alt="Hero"
             data-ai-hint="abstract developer"
-            className="mx-auto aspect-square overflow-hidden rounded-xl object-cover"
+            className="mx-auto aspect-square overflow-hidden rounded-full object-cover"
           />
         </div>
       </div>
