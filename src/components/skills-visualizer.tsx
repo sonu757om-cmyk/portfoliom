@@ -10,6 +10,7 @@ import { useToast } from '@/hooks/use-toast';
 import { getSkillsVisualization } from '@/app/actions';
 import { Loader2, Sparkles } from 'lucide-react';
 import type { VisualizeSkillsOutput } from '@/ai/flows/skills-visualization';
+import { Grid } from 'lucide-react';
 
 export default function SkillsVisualizer() {
   const [skills, setSkills] = useState('NextJS, Firebase, Genkit, TailwindCSS, React, TypeScript');
