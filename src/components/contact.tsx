@@ -64,7 +64,7 @@ export default function Contact() {
   return (
     <section id="contact" className="relative overflow-hidden w-full py-20 md:py-32 bg-card">
        <Image
-        src="https://i.ibb.co/6g1x4m2/radha-krishna.png"
+        src="https://i.ibb.co/yYyY0g8/radha.png"
         alt="Decorative background image"
         fill
         className="object-contain object-left-bottom opacity-20 pointer-events-none"
