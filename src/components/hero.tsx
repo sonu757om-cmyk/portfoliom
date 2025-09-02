@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Download } from 'lucide-react';
+import TypingEffect from './typing-effect';
 
 export default function Hero() {
   return (
@@ -9,9 +10,10 @@ export default function Hero() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:gap-16 items-center">
           <div className="space-y-4">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline text-primary">
-              Hi, I'm a Developer & Designer
-            </h1>
+            <TypingEffect
+              texts={["Hi, I'm a Developer", "Hi, I'm a Designer"]}
+              className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline text-primary"
+            />
             <p className="max-w-[600px] text-muted-foreground md:text-xl">
               I build beautiful, responsive, and user-friendly web applications. Explore my work and get in touch.
             </p>
