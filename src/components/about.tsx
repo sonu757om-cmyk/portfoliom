@@ -24,7 +24,7 @@ export default function About() {
           </div>
           <div className="space-y-6">
             <div className="space-y-3">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">About Me</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">About Me</h2>
               <p className="text-muted-foreground md:text-lg">
                 I am a passionate and creative developer with a knack for building beautiful and functional web experiences. My journey in tech started with a deep curiosity for how things work, which led me to dive into web development. I thrive on solving complex problems and continuously learning new technologies.
               </p>
