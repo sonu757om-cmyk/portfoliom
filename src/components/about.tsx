@@ -32,10 +32,7 @@ export default function About() {
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">About Me</h2>
               <p className="text-muted-foreground md:text-lg">
-                I am a passionate and creative developer with a knack for building beautiful and functional web experiences. My journey in tech started with a deep curiosity for how things work, which led me to dive into web development. I thrive on solving complex problems and continuously learning new technologies.
-              </p>
-              <p className="text-muted-foreground md:text-lg">
-                When I'm not coding, you can find me exploring the outdoors, reading a good book, or experimenting with new recipes in the kitchen.
+                Hi, my name is Manoj Das. I live in Lalbazar, Bankura. I completed my B.A. in Philosophy in 2023 and my M.A. in 2024 from Burdwan University. I am pursuing my B.Ed. from Onda College, expecting to complete it in 2026. In my free time, I enjoy listening to music, reading books, and occasionally, I like to draw and paint.
               </p>
             </div>
             <div className="space-y-3">
