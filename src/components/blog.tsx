@@ -45,7 +45,7 @@ export default function Blog() {
         </div>
         <div className="grid gap-8 mt-12 md:grid-cols-2 lg:grid-cols-3">
           {blogPosts.map((post) => (
-            <Card key={post.title} className="flex flex-col overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl group">
+            <Card key={post.title} className="group flex flex-col overflow-hidden transition-shadow duration-300 ease-in-out hover:shadow-2xl">
               <CardHeader className="p-0">
                 <Link href={post.href} className="block overflow-hidden">
                   <Image
