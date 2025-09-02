@@ -7,6 +7,13 @@ import TypingEffect from './typing-effect';
 export default function Hero() {
   return (
     <section id="home" className="relative w-full overflow-hidden py-20 md:py-32 lg:py-40 bg-card border-b-4 border-primary">
+       <Image
+        src="https://images.unsplash.com/photo-1487147264018-f937fba0c817?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHBhdHRlcm58ZW58MHx8fHwxNzU2OTg4MTg0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        alt="Abstract background"
+        fill
+        data-ai-hint="abstract pattern"
+        className="object-cover opacity-10"
+      />
       <div className="container mx-auto px-4 md:px-6 z-10 relative">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:gap-16 items-center">
           <div className="space-y-4">
