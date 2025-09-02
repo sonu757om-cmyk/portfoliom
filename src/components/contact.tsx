@@ -64,10 +64,11 @@ export default function Contact() {
   return (
     <section id="contact" className="relative overflow-hidden w-full py-20 md:py-32 bg-card">
        <Image
-        src="https://i.ibb.co/G03vj5h/Radha-Krishna.png"
-        alt="Decorative background image of Radha Krishna"
+        src="https://images.unsplash.com/photo-1596524430615-b46475ddff6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb250YWN0fGVufDB8fHx8MTc1NjkxODMyOXww&ixlib=rb-4.1.0&q=80&w=1080"
+        alt="Decorative background image"
+        data-ai-hint="contact us"
         fill
-        className="object-contain object-left-bottom opacity-20 pointer-events-none"
+        className="object-cover object-center opacity-10 pointer-events-none"
       />
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
