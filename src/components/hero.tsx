@@ -50,7 +50,7 @@ export default function Hero() {
         </div>
       </div>
       <Image
-        src="https://images.unsplash.com/photo-1529636798458-72410db268b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmbG93ZXIlMjBib3VxdWV0fGVufDB8fHx8MTc1NjkxNjU4MHww&ixlib=rb-4.1.0&q=80&w=1080"
+        src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zmxvd2Vyc3xlbnwwfHx8fDE3NTY4MTg4NTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
         alt="Flower bouquet"
         width={1920}
         height={400}
