@@ -19,7 +19,7 @@ const projects = [
   {
     title: 'Project Two',
     description: 'An e-commerce platform with a modern design and seamless user experience. Features product listings, a shopping cart, and a checkout process.',
-    image: 'https://picsum.photos/600/400',
+    image: 'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxib29rc3xlbnwwfHx8fDE3NTY4MTMwNzV8MA&ixlib=rb-4.1.0&q=80&w=1080',
     tags: ['React', 'Firebase', 'Stripe'],
     liveUrl: '#',
     repoUrl: '#',
@@ -28,7 +28,7 @@ const projects = [
   {
     title: 'Project Three',
     description: 'A data visualization dashboard that presents complex data in an intuitive and interactive way. Powered by D3.js and React.',
-    image: 'https://picsum.photos/600/400',
+    image: 'https://images.unsplash.com/photo-1517770413964-df8ca61194a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxib29rfGVufDB8fHx8MTc1NjgxMjkzNXww&ixlib=rb-4.1.0&q=80&w=1080',
     tags: ['React', 'D3.js', 'Data Viz'],
     liveUrl: '#',
     repoUrl: '#',
