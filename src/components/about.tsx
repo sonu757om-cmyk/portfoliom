@@ -12,7 +12,7 @@ export default function About() {
     <section id="about" className="w-full py-20 md:py-32 bg-card">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid items-center gap-12 lg:grid-cols-2">
-          <div className="lg:order-2">
+          <div>
             <Image
               src="https://picsum.photos/600/600"
               width={600}
